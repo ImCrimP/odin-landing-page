@@ -57,3 +57,27 @@ a{
     font-size: 48px;
     font-weight: bolder;
 }
+
+
+.top-section{
+    display: flex;
+    flex: 1;
+}
+
+.description{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up-btn{
+    background-color: #3882F6;
+    padding: 8px;
+    width: 100px;
+    color: #F9FAF8;
+    border-radius: 12px;
+    border: #1F2937;
+}
+
+.sign-up-footer{
+    border: #F9FAF8;
+}
