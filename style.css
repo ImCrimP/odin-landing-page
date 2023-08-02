@@ -4,19 +4,22 @@ body{
     font-family: Roboto, sans-serif;
     margin: 0;
     min-height: 100vh;
-    overflow: hidden;
+   /* overflow: hidden;*/
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .body{
-    flex:1;
+    /*height: 72px;*/
+    font-family: Roboto, sans-serif;
+    flex: 1;
     display: flex;
     flex-direction: column;
 }
 
 .body-header{
-    height: 72px;
+    /*height: 72px;*/
     font-family: Roboto, sans-serif;
     padding: 16px;
     color: #F9FAF8;
@@ -55,17 +58,16 @@ a{
     text-decoration: none;
 }
 
-.top-title{
-    font-size: 48px;
-    font-weight: bolder;
-}
-
-
 .top-section{
     display: flex;
     flex: 1;
     padding: 75px;
     gap: 12px;
+}
+
+.top-title{
+    font-size: 48px;
+    font-weight: bolder;
 }
 
 .description{
@@ -80,11 +82,7 @@ a{
     width: 100px;
     color: #F9FAF8;
     border-radius: 12px;
-    border: #1F2937;
-}
-
-.sign-up-footer{
-    border: #F9FAF8;
+    border: #1F2937 solid;
 }
 
 .top-img{
@@ -102,7 +100,7 @@ a{
 
 
 .body-mid{
-    height: 72px;
+    /*height: 72px;*/
     font-family: Roboto, sans-serif;
     padding: 0 16px;
     color: #1F2937;
@@ -149,3 +147,76 @@ a{
     padding: 18px;
 }
 
+.body-bot{
+    /*height: 72px;*/
+    font-family: Roboto, sans-serif;
+    padding: 16px;
+    color: #1F2937;
+    background: #E5E7EB;
+    box-sizing: border-box;
+    display: flex;
+    flex: 1;
+}
+
+.quote-author-container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 100px 550px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: oblique;
+}
+
+.author{
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: right;
+}
+
+.body-footer{
+    /*height: 72px;*/
+    font-family: Roboto, sans-serif;
+    padding: 100px 500px;
+    color: #F9FAF8;
+    box-sizing: border-box;
+    display: flex;
+    flex: 1;
+}
+
+.sign-up-alert{
+    background-color: #3882F6;
+    padding: 32px 48px;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.sign-up-footer{
+    background-color: #3882F6;
+    padding: 8px;
+    font-size: 16px;
+    color: #F9FAF8;
+    border-radius: 12px;
+    border: #F9FAF8 solid;
+}
+
+.alert-header{
+    font-size: 24px;
+    font-weight: bolder;
+    display: flex;
+    flex: 1;
+}
+
+.alert-subtext{
+    font-size: 18px;
+}
+
+.footer{
+    text-align: center;
+    background: #1F2937;
+    color: #E5E7EB;
+    padding: 38px;
+}
